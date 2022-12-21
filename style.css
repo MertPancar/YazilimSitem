@@ -7,5 +7,127 @@
 {
     height: 100vh;
     width: 100%;
-
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(dizustu.jpg);
+    background-position: top;
+    background-size: cover;
+}
+.navbar
+{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding: 32px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo
+{
+    border-radius: 50%;
+    cursor: pointer;
+}
+.navbar ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    transition:color 1s;
+}
+.navbar ul li a:hover
+{
+    color: tomato;
+}
+.content
+{
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    text-align: center;
+}
+.content h1
+{
+    font-size: 65px;
+}
+.content p
+{
+    margin: 20px auto;
+}
+.btn
+{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    cursor: pointer;
+    background-color: tomato;
+    margin: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.btn:hover
+{
+    color: black;
+}
+.form-basligi
+{
+    text-align: center;
+    font-size: 40px;
+    color: #554994;
+}
+.iletisim-formu
+{
+    width: 520px;
+    margin: auto;
+}
+.iletisim-formu label,input,select
+{
+    display: block;
+    width: 100%;
+    margin-top: 35px;
+}
+.iletisim-formu button[type="submit"]
+{
+    display: block;
+    margin-top: 35px;
+}
+.iletisim-formu input,select
+{
+    border: 2px solid #f675a8;
+    padding: 10px 15px;
+}
+input:focus
+{
+    outline: none;
+    border: 2px solid #7fbcd2;
+    color: black;
+}
+.iletisim-sayfasi
+{
+    padding-top: 5%;
+}
+label
+{
+    font-size: 28px;
+}
+.btn2
+{
+    width: 180px;
+    padding: 15px 0;
+    border-radius: 35px;
+    margin: 22px;
+    text-align: center;
+    color: white;
+    background-color: #7fbcd2;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 19px;
+    margin-left: 180px;
+}
+.btn2:hover
+{
+    color: black;
 }
