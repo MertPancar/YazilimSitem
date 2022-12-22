@@ -2,7 +2,10 @@
 {
     padding: 0;
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+
 }
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 .banner
 {
     height: 100vh;
@@ -14,28 +17,36 @@
 .navbar
 {
     display: flex;
-    width: 90%;
+    width: 100%;
     margin: auto;
-    padding: 32px 0;
+    padding: 27px 0;
     align-items: center;
     justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.534);
+    height: 7vh;
+    
+   
+    
+    
 }
 .logo
 {
     border-radius: 50%;
     cursor: pointer;
+    background-position-x: -100px;
 }
 .navbar ul li
 {
     list-style-type: none;
     display: inline-block;
     margin: 0 25px;
+    
 }
 .navbar ul li a
 {
     text-decoration: none;
     color: #fff;
-    transition:color 1s;
+    transition:color 0.45s;
 }
 .navbar ul li a:hover
 {
@@ -63,10 +74,22 @@
     padding: 15px 0;
     text-align: center;
     cursor: pointer;
-    background-color: tomato;
+    background-color: white;
     margin: 20px;
     font-weight: 600;
     color: #fff;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: aqua;
+    
+}
+
+.btn a
+{
+    text-decoration: none;
+    color: black;
+
 }
 .btn:hover
 {
@@ -126,8 +149,34 @@ label
     cursor: pointer;
     font-size: 19px;
     margin-left: 180px;
+    text-decoration: none;
 }
 .btn2:hover
 {
     color: black;
+}
+.btn2 a{
+    text-decoration: none;
+}
+.icerik
+{
+    font-size: large;
+    text-align: center;
+    
+    
+}
+.icerik h1
+{
+    margin-top: 150px;
+   
+    width: 100%;
+    
+   
+    
+}
+.icerik img
+{
+    margin-top: -67px;
+    margin-left: 650px;
+
 }
