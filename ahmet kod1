@@ -1,0 +1,12 @@
+
+.btn-1:hover {
+border: none;
+color: white;               
+background-color: blue;
+padding: 10px 20px;
+cursor: pointer;
+border: 2px solid yellow;     
+-moz-border-radius: 16px;
+-webkit-border-radius: 16px;
+border-radius: 16px;
+}
