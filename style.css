@@ -180,3 +180,33 @@ label
     margin-left: 650px;
 
 }
+.icerik a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 42px;
+}
+.gitgit button
+{
+    height: 5vh;
+    width: 10%;
+    border-radius: 9px;
+    display: flex;
+    margin-top: -125px;
+   align-items: center;
+   margin-left: 700px;
+    
+    
+}
+.gitgit button:hover
+{
+    
+    background-color: black;
+    
+}
+.gitgit a:hover
+{
+    color: white;
+}
