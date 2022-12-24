@@ -164,12 +164,15 @@ label
     text-align: center;
     
     
+    
 }
 .icerik h1
 {
     margin-top: 150px;
    
     width: 100%;
+    margin-left: -100px;
+    
     
    
     
@@ -177,7 +180,7 @@ label
 .icerik img
 {
     margin-top: -67px;
-    margin-left: 650px;
+    margin-left: 500px;
 
 }
 .icerik a
@@ -188,25 +191,26 @@ label
     text-align: center;
     margin-left: 42px;
 }
-.gitgit button
-{
-    height: 5vh;
-    width: 10%;
-    border-radius: 9px;
-    display: flex;
-    margin-top: -125px;
-   align-items: center;
-   margin-left: 700px;
-    
-    
-}
-.gitgit button:hover
-{
-    
-    background-color: black;
-    
-}
-.gitgit a:hover
-{
+.button{
+
+    background-color: #e67e22;
+    border:solid #f675a8;
     color: white;
+    padding: 15px 32px;
+    text-decoration: none;   
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    display:flex;
+    width: 4%;
+    align-items: center;  
+    margin-top: -125px;
+    position: fixed;
+    right: 600px;
+    
+    
 }
+
+
+
+
