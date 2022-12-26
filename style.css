@@ -1,3 +1,4 @@
+
 *
 {
     padding: 0;
@@ -209,6 +210,19 @@ label
     right: 600px;
     
     
+}
+.hakkimda
+{
+    
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 20px;
+    font-family: 'Caramel', cursive;
+
+    
+
 }
 
 
