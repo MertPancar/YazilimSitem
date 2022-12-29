@@ -78,7 +78,7 @@
     background-color: white;
     margin: 20px;
     font-weight: 600;
-    color: #fff;
+    color: rgb(8, 8, 8);
     border-radius: 15px;
 }
 .btn:hover{
@@ -211,19 +211,7 @@ label
     
     
 }
-.hakkimda
-{
-    
-    text-align: center;
-    margin-top: 150px;
-    margin-left: 150px;
-    margin-right: 150px;
-    font-size: 20px;
-    font-family: 'Caramel', cursive;
 
-    
-
-}
 
 
 
